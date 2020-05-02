@@ -6,7 +6,7 @@
                     <p
                             class="white--text display-2 pt-12 mt-12 font-weight-black font-italic"
                             align="center">
-                        JAPANESE HIPHOPER LIST
+                        Foreigner HIPHOPER LIST
                     </p>
                 </v-img>
             </v-col>
@@ -15,8 +15,11 @@
 </template>
 
 <script>
-
-export default {
-    name:"Home"
-}
+    export default {
+        name: "Foreigner"
+    }
 </script>
+
+<style scoped>
+
+</style>

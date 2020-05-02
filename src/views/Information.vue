@@ -15,8 +15,11 @@
 </template>
 
 <script>
-
-export default {
-    name:"Home"
-}
+    export default {
+        name: "Information"
+    }
 </script>
+
+<style scoped>
+
+</style>
