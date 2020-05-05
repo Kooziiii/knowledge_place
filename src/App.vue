@@ -4,7 +4,8 @@
     <v-content>
       <router-view></router-view>
     </v-content>
-    <v-footer class="px-0 py-0">
+
+    <v-footer class="px-0 py-0" color="black">
       <Footer></Footer>
     </v-footer>
   </v-app>
