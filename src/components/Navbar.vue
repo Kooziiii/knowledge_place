@@ -27,11 +27,13 @@
                 </v-btn>
             </v-toolbar-items>
             <v-toolbar-items class="hidden-sm-and-down">
-                <v-btn
+                <v-tabs verticalvertical background-color="black" class="mt-4" >
+                <v-tab
+                        retain-focus-on-click="true"
                         color="black"
-                        class=" white--text px-8 font-weight-bold subtitle-2" large elevation="0"
+                        class=" white--text font-weight-bold subtitle-2" large elevation="0"
                         v-for="link in links" :key="link.text"
-                        router :to="link.route">{{link.text}}</v-btn>
+                        router :to="link.route">{{link.text}}</v-tab></v-tabs>
             </v-toolbar-items>
         </v-toolbar>
     </nav>
